@@ -23,6 +23,7 @@ public class BinarySearch {
             mid = (s+e)/2;
             if(arr[mid]==key) {
                 System.out.println("Element is found");
+                flag = 1;
                 break;
             } else if (arr[mid]>key) {
                 e = mid - 1;
