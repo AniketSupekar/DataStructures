@@ -78,7 +78,7 @@ public static void main(String[] args){
             break;
     
             default :
-            System.out.println("Enter the valid choice");
+            System.out.println("Entered the valid choice");
             break;
         }
         System.out.println("Press 1 to continue");
